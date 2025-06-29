@@ -27,7 +27,7 @@ api_version = os.getenv("OPENAI_API_VERSION")
 
 #%% Embedding Modell und LLM initialisieren
 embedding_model = AzureOpenAIEmbedding(
-            model="text-embedding-3-small",
+            model="text-embedding-3-large",
             azure_endpoint = azure_endpoint,
             api_key = api_key,
             api_version = api_version,
